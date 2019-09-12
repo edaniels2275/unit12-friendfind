@@ -227,15 +227,15 @@
             if ($("#username").val().trim() === "" ||
                 $("#userImage").val().trim() === "" ||
                 $("#q1").val() === "" ||
+                $("#q2").val() === "" ||
+                $("#q3").val() === "" ||
+                $("#q4").val() === "" ||
                 $("#q1").val() === "" ||
-                $("#q1").val() === "" ||
-                $("#q1").val() === "" ||
-                $("#q1").val() === "" ||
-                $("#q1").val() === "" ||
-                $("#q1").val() === "" ||
-                $("#q1").val() === "" ||
-                $("#q1").val() === "" ||
-                $("#q1").val() === "") {
+                $("#q6").val() === "" ||
+                $("#q7").val() === "" ||
+                $("#q8").val() === "" ||
+                $("#q9").val() === "" ||
+                $("#q10").val() === "") {
                 alert("Please fill all fields");
             } else {
                 //Create friend object
@@ -243,8 +243,8 @@
                     "name": $("#username").val().trim(),
                     "pic": $("#userImage").val().trim(),
                     "scores": [
-                        q1 = parseInt($("#q1").val()), q2 = parseInt($("#q1").val()), q3 = parseInt($("#q1").val()), q4 = parseInt($("#q1").val()), q5 = parseInt($("#q1").val()),
-                        q6 = parseInt($("#q1").val()), q7 = parseInt($("#q1").val()), q8 = parseInt($("#q1").val()), q9 = parseInt($("#q1").val()), q10 = parseInt($("#q1").val())
+                        q1 = parseInt($("#q1").val()), q2 = parseInt($("#q2").val()), q3 = parseInt($("#q3").val()), q4 = parseInt($("#q4").val()), q5 = parseInt($("#q5").val()),
+                        q6 = parseInt($("#q6").val()), q7 = parseInt($("#q7").val()), q8 = parseInt($("#q8").val()), q9 = parseInt($("#q9").val()), q10 = parseInt($("#q10").val())
                     ]
 
                 };
